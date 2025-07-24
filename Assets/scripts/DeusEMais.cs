@@ -4,7 +4,7 @@ using TMPro;
 
 public class DeusEMais : MonoBehaviour
 {
-    [Header("UI Elements")]
+    [Header("Jesus")]
     [SerializeField] private TextMeshProUGUI perguntaTexto;
     [SerializeField] private TMP_InputField inputResposta;
     [SerializeField] private GameObject telaVitoria;
@@ -15,9 +15,9 @@ public class DeusEMais : MonoBehaviour
     private int numero2;
     private int resultadoCorreto;
     private int acertosSeguidos = 0;
-    private const int acertosParaVitoria = 3;
+    private const int acertosParaVitoria = 5;
 
-    private float tempoTotal = 90f;
+    private float tempoTotal = 60f;
     private bool jogoAtivo = true;
     private char operacaoAtual; // '+' ou '-'
 
